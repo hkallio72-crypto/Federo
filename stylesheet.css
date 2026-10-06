@@ -1,0 +1,333 @@
+.federo-regular {
+    font-family: "Federo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC58F;
+    position: fixed;
+    top: 0px;
+    z-index: 14;
+    padding: 0;
+    width: 1495px;
+    margin-left: -300px;
+
+}
+
+a {
+    color: #01403A;
+    text-decoration: none;
+    font-size: 13pt;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 180px;
+    margin: 28.5px;
+    padding: 0;
+    text-align: center;
+    margin-left: 270px;
+    margin-right: 270px;
+}
+
+
+header {
+    background-image: url(images/TEXTURES.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding: 300px;
+}
+
+
+
+body {
+    font-family: "Federo", sans-serif;
+    background-color: #01403A;
+    color: #FFC58F;
+}
+
+
+h1 {
+    font-family: "Federo", sans-serif;
+    font-size: 100pt;
+    color: #01403A;
+    text-align: center;
+    margin: 200pt 200pt;
+    position: relative;
+    z-index: 5;
+}
+
+.diamond1 {
+    width: 546px;
+    height: 546px;
+    position: absolute;
+    top: 380px;
+    left: 32%;
+    background-color: #FFC58F;
+    z-index: 1;
+    rotate: 45deg;
+}
+
+.diamond15 {
+    width: 475px;
+    height: 475px;
+    position: absolute;
+    z-index: 2;
+    top: 405px;
+    left: 33.3%;
+    border: 15px solid #01403A;
+    rotate: 45deg;
+}
+
+
+.fontdesc {
+    text-align: center;
+    padding: 100pt 100pt;
+    font-size: 20pt;
+}
+
+.divider1 {
+    padding-bottom: 100px;
+}
+
+.characters {
+    text-align: center;
+    font-size: 50pt;
+    letter-spacing: .5em;
+}
+.characters:hover{
+scale: 1.05;
+    color: white;
+padding: 10px 20px;
+border: none;
+transition: all 0.3s ease; 
+
+}
+.divider2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.frame {
+    width: 1500px;
+    position: absolute;
+    z-index: -1;
+    align-content: center;
+    display: block;
+    margin: auto;
+}
+
+.words {
+    font-size: 40pt;
+    text-align: center;
+    color: #01403A;
+    width: auto;
+    position: relative;
+}
+
+.diamond3 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    z-index: 10;
+    border: 15px solid #01403A;
+    rotate: 45deg;
+    margin-left: 370px;
+    margin-top: -70px;
+}
+
+.a {
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.g {
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    left: -40px;
+}
+
+.m {
+    display: inline-block;
+    transform: rotate(-45deg);
+    margin-top: 10px;
+    position: relative;
+    left: 40px;
+}
+
+.j {
+    margin-left: -10px;
+    display: inline-block;
+    transform: rotate(-45deg);
+    margin-top: 50px;
+    /* padding-right: 100px; */
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+
+.l {
+    margin-left: 50px;
+    display: inline-block;
+    transform: rotate(45deg);
+    position: relative;
+    top: 50px;
+    left: 160px;
+    /* padding-left: 100px; */
+}
+
+.borderbox {
+    display: inline-block;
+    background-color: #FFC58F;
+    border: 10px #FFC58F;
+    border-radius: 160px;
+    width: 1200px;
+    height: 720px;
+    align-items: center;
+    margin-top: 125px;
+    position: relative;
+}
+
+.diamond2 {
+    border: 10px;
+    color: solid #01403A;
+    display: inline-block;
+    z-index: 10;
+
+}
+
+.paragraph {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: justify;
+    font-size: 20pt;
+    position: relative;
+}
+
+.star {
+    width: 150px;
+    position: absolute;
+    display: block;
+    margin-top: 450px;
+    margin-left: 670px;
+}
+
+.jazzage {
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.jazzage {
+
+    padding-top: 350px;
+}
+
+.lavish {
+
+    padding-top: 700px;
+
+}
+
+.modern {
+    padding-top: 350px;
+}
+
+.title {
+    font-size: 30pt;
+    text-align: center;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.date {
+    font-size: 20pt;
+    text-align: center;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+h5 {
+    font-size: 14pt;
+    text-align: center;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+
+.band {
+    padding-bottom: 100pt;
+    padding-top: 100pt;
+    display: inline-block;
+    background-color: #FFC58F;
+    width: 500px;
+    height: 300px;
+    color: #01403A;
+}
+
+.art {
+    padding-bottom: 100pt;
+    padding-top: 100pt;
+    display: inline-block;
+    background-color: #01403A;
+    width: 500px;
+    height: 300px;
+    color: #FFC58F;
+}
+
+.tour {
+    padding-bottom: 100pt;
+    padding-top: 100pt;
+    display: inline-block;
+    background-color: #FFC58F;
+    width: 500px;
+    height: 300px;
+    color: #01403A;
+}
+
+.bandimg {
+    width: 800px;
+    display: inline-block;
+    margin-left: 650px;
+    margin-top: -500px;
+}
+
+.artimg {
+    width: 700px;
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: -600px;
+
+}
+
+.tourimg {
+    width: 700px;
+    display: inline-block;
+    margin-left: 700px;
+    margin-top: -900px;
+    margin-bottom: 100px;
+
+}
+
+.footer {
+    color: #FFC58F;
+    text-align: center;
+    font-size: 15pt;
+}
+
+.scroll {
+    color: #FFC58F;
+    display: block;
+    font-size: 11pt;
+    text-align: center;
+}
